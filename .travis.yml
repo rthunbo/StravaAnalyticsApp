@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+
+node_js:
+  - '0.12'
+
+cache:
+  npm: true
+  bundler: true
+  apt: true
+  directories:
+    - node_modules
+
+script:
+  - bower install
+  - gulp build

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span9">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Suffer Score</th>
+                        <th>Distance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="activity in activities">
+                        <th scope="row">{{ activity.start_date_local | date }}</th>
+                        <td><a href="#/activities/{{activity.id}}">{{ activity.suffer_score }}</a></td>
+                        <td>{{ activity.distance}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

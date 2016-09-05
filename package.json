@@ -1,0 +1,27 @@
+{
+  "name": "StravaAnalyticsApp",
+  "description": "The StravaAnalytics app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rthunbo/StravaAnalyticsApp.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.3",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "private": true
+}

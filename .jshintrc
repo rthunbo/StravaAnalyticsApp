@@ -1,0 +1,21 @@
+{
+  "node": false,
+  "browser": true,
+  "esnext": true,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "newcap": true,
+  "noarg": true,
+  "predef": [ "angular", "console", "$" ],
+  "quotmark": "default",
+  "undef": true,
+  "unused": "vars",
+  "strict": true,
+  "trailing": true,
+  "smarttabs": true,
+  "sub": true
+}
