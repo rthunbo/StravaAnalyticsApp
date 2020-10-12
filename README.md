@@ -1,6 +1,6 @@
 # StravaAnalyticsApp
 
-StravaAnalytics will let you analyse your effort week by week, and give you insights into your activities.
+Just an empty Strava App for now.
 
 ## Development setup
 
